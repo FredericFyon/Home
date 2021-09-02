@@ -311,6 +311,10 @@ main article a:hover{
 	margin-right:2vw;
 }
 
+#Project1 #Predictions u:hover{
+	font-weight:bold;
+}		
+
 #bannerProject{
 	width:100%;
 	height:50vh;
