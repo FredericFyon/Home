@@ -122,35 +122,82 @@ main article a:hover{
 	color:#BA3204;
 }
 
-#Project1{
+.Project{
 	background-color: honeydew;
 }
 
-#Project1 p{
+.Project p{
 	text-align: justify;
 }
 
-#Project1 h1{
+.Project h1{
 	text-align: center;
 	margin-bottom: 8vh;
 	margin-top: 8vh;
 }
 
-#Project1 #BackToTop{
+.Project #BackToTop{
 	position: fixed; /* Fixed/sticky position */
-	bottom: 10px; /* Place the button at the bottom of the page */
-	right: 0px; /* Place the button 30px from the right */
+	bottom: 4vh; /* Place the button at the bottom of the page */
+	right: 0.4vw; /* Place the button 30px from the right */
 	background-color: honeydew; /* Set a background color */
-	color: grey; /* Text color */
-	padding: 15px; /* Some padding */
-	border-radius: 10px; /* Rounded corners */
-  }
+	color: black; /* Text color */
+	font-weight: bold;
+	text-decoration: none;
+	width: 2.5vw;
+}
 
-#Project1 .pro1{
+.Project .LinkProj{
+	font-style: italic;
+	color:goldenrod;
+	position: absolute;
+	display: flex;
+    flex-flow: row wrap;
+	font-size: 0.9em;
+}
+
+.Project .LinkProj img{
+	width:2vw;
+	border:none;
+}
+
+.Project .LinkProj:hover{
+	margin-top:-1vh;
+	transition: margin-top .1s ease-in-out;
+}
+
+.Project #toAM{
+	right:1vw;
+}
+
+.Project #toAM img{
+	margin-left:1vw;
+}
+
+.Project #toER{
+	left:1vw;
+	margin-right:15vw;
+}
+
+.Project #toER img{
+	margin-right:1vw;
+}
+
+.Project #BackToTop img{
+	width:100%;
+	border:none;
+}
+
+.Project #BackToTop:hover{
+	bottom: 5vh;
+	transition: bottom .1s ease-in-out;
+}
+
+.Project .pro1{
 	padding-top:5vh;
 }
 
-#Project1 #ToC{
+.Project #ToC{
 	list-style-type: decimal;
 	border: #BA3204 1.5px solid;
 	padding:15px;
@@ -159,149 +206,181 @@ main article a:hover{
 	width:40vw;
 }
 
-#Project1 #ToC li{
+.Project #ToC li{
 	margin-top: 5vh;
 }
 
-#Project1 #ToC #li1{
+.Project #ToC #li1{
 	margin-top: 0vh;
 }
 
-#Project1 #ToC a{
+.Project #ToC a{
 	font-size: 1.05em;
 	font-weight: bold;
 	color:#BA3204;
 }
 
-#Project1 #Top #ToC a:hover{
+.Project #Top #ToC a:hover{
 	color:#256d25;
 }
 
-#Project1 #ToC a:visited{
+.Project #ToC a:visited{
 	color:#BA3204;
 }
 
-#Project1 h2{
+.Project h2{
 	font-size: 1.3em;
 	color:#256d25;
 	margin-top:10vh;
 }
 
-#Project1 img{
+.Project img{
 	display: block;
 	margin:auto;
 	border:1.5px #BA3204 solid;
 }
 
-#Project1 figure figcaption{
+.Project figure figcaption{
 	text-align: justify;
 	margin-top: 3vh;
 	font-size: 0.7em;
 	text-decoration: underline;
 }
 
-#Project1 #img1{
+.Project #img1{
 	width: 60vw;
 	margin-top:10vh;
 	margin-bottom: 10vh;
 }
 
-#Project1 #img2{
+.Project #img2{
 	width: 50vw;
 	margin-top:10vh;
 	margin-bottom: 10vh;
 }
 
-#Project1 #img3{
+.Project #img3{
 	width:35vw;
 }
 
-#Project1 #img4{
+.Project #img4{
 	width:30vw;
 }
 
-#Project1 #figImg5{
+.Project #figImg5{
 	display:table;
 	width:35vw;
 }
 
-#Project1 #img5{
+.Project #img5{
 	display:block;
 	width:100%;
 }
 
-#Project #capImg5{
+.Project #capImg5{
 	display: table-caption;
 	caption-side: bottom;
 }
 
-#Project1 #figImg6{
+.Project #figImg6{
 	display:table;
 	width:25vw;
 }
 
-#Project1 #img6{
+.Project #img6{
 	display:block;
 	width:100%;
 }
 
-#Project1 #capImg6{
+.Project #capImg6{
 	display: table-caption;
 	caption-side: bottom;
 }
 
-#Project1 #figImg7{
+.Project #figImg7{
 	display:table;
 	width:30vw;
 	margin:auto;
 	padding-top:15px;
 }
 
-#Project1 #img7{
+.Project #img7{
 	display:block;
 	width:100%;
 }
 
-#Project #capImg7{
+.Project #capImg7{
 	display: table-caption;
 	caption-side: bottom;
 }
 
-#Project1 div div #p1{
+.Project #figImgMollies{
+	display:table;
+	width:21vw;
+}
+
+.Project #imgMollies{
+	display:block;
+	width:100%;
+}
+
+.Project #capImgMollies{
+	display: table-caption;
+	caption-side: bottom;
+}
+
+.Project div div #p1{
 	display: inline-block;
 	width:50vw;
 }
 
-#Project1 div div #p2{
+.Project div div #p2{
 	display: inline-block;
 	width:55vw;
 }
 
-#Project1 div div #p3{
+.Project div div #p3{
 	display: inline-block;
 	width:50vw;
 }
 
-#Project1 div div #p4{
+.Project div div #p4{
 	display: inline-block;
 	width:55vw;
 }
 
-#Project1 div div{
+.Project div div #pMollies{
+	display: inline-block;
+	width:62vw;
+}
+
+.Project div div #pMollies li{
+	list-style-type: decimal;
+	margin-left: 4vw;
+	padding-left: 2vw;
+	margin-bottom: 2vh;
+}
+
+.Project div div #pMollies ol{
+	margin-bottom: 7vh;
+}
+
+
+.Project div div{
 	display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-content: center;
 }
 
-#Project1 #Predictions li{
+.Project #Predictions li{
 	list-style-type: decimal;
 	margin-bottom:20px;
 	text-align: justify;
 	padding-right:2vw;
 }
 
-#Project1 #Predictions{
+.Project #Predictions{
 	border:#BA3204 1.5px solid;
 	border-radius: 10px;
 	background-color: white;
@@ -311,9 +390,38 @@ main article a:hover{
 	margin-right:2vw;
 }
 
-#Project1 #Predictions u:hover{
-	font-weight:bold;
-}		
+.Project #Predictions u:hover{
+	font-weight: bold;
+}
+
+.Project table{
+	margin-top:10vh;
+	border-collapse: collapse;
+	border:#BA3204 1.5px solid;
+	border-radius: 20px;
+	background-color: white;
+}
+
+.Project #tb1{
+	margin-bottom:10vh;
+}
+
+.Project table td{
+	text-align: justify;
+	vertical-align: top;
+	width:50%;
+	padding: 1vw 3vw 1vw 3vw;
+}
+
+.Project table tr .col1{
+	border-right: #BA3204 1.5px solid;
+}
+
+.Project table th{
+	padding-bottom: 1vw;
+	padding-top:10px;
+	font-size: 1.3em;
+}
 
 #bannerProject{
 	width:100%;
