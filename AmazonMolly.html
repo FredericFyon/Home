@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link type="text/css" rel="stylesheet" href="style.css" />
+    <style type="text/css">
+    @import url("style.css");
+    </style>
+    <meta charset="utf-8">
+	<title>Frédéric Fyon</title>
+</head>
+
+<body>
+	<header>		
+		<nav>
+			<ul>
+                <li><a id="nav1" href="index.html#home">Home</a></li>
+				<li><a id="nav2" href="index.html#moi">About Me</a></li>
+				<li><a id="nav3" href="index.html#research">My Research</a></li>
+				<li><a id="nav4" href="index.html#publication">Publications</a></li>
+				<li><a id="nav5" href="index.html#contact">Contact Me</a></li>
+			</ul>
+		</nav>
+
+		<div id="media">
+			<ul>
+				<li><a href="https://www.researchgate.net/profile/Frederic-Fyon" target="_blank"><img src="images/RG.jpg"></a></li>
+				<li><a href="https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-fyon-636419198/" target="_blank"><img src="images/In.jpg"></a></li>
+				<li><a href="https://github.com/FredericFyon" target="_blank"><img src="images/GH.png"></a></li>
+				<li><a href="https://publons.com/dashboard/summary/" target="_blank"><img src="images/Pub.png"></a></li>
+			</ul>
+		</div>
+	</header>
+
+    <img id="bannerProject" src="images/River.jpg">
+	
+	<main>
+        <article class="Project">
+            
+        <a class="LinkProj" id="toER" href="GeneExpression.html">
+            <img src="images/LeftArrow.png">
+            To Enhancer Runaway Project
+        </a>  
+        
+        <h1>Evolution of Asexuality in the Amazon Molly</h1>
+
+        <a id="BackToTop" href=#Top><img src="images/UpArr.png"></a> 
+
+        <div id="Top" class="pro1">
+        <h2>Table of contents</h2>
+        
+        <ol id="ToC">
+            <li id="li1"><a href=#Sex>Sex or Asex? Two Strategies with Pros and Cons</a></li>
+            <li><a href=#Gyno>Gynogenesis</a></li>
+            <li><a href=#AMolly>The Case of the Amazon Molly</a></li>
+        </ol>
+        </div>
+
+        <div id="Sex" class="pro1">
+            <h2>Sex or Asex? Two Strategies with Pros and Cons</h2>
+        <p>
+            Sexual Reproduction is the process by which two independently-produced gametes (in our case, spermatozoids and ova) fuse to
+            produce a new offspring. The two gametes may be produced by different individuals (in outcrossing organisms like Mammals), or by the same
+            individual (in self-fertilizing species, among which many plants but also some animals like some flat worms or snails). In
+            both cases, the resulting individual is different from the parent(s).<br/>
+            <br/>
+            Sexual Reproduction is a complex process that involves: (1) the production of reduced gametes via meiosis, (2) mating behaviours 
+            (outcrossers), and (3) fusion of the gametes (fertilization). It is overall a costly process that is thought to generate genetic
+            diversity, a major necessity in a changing world. We can summarize its pros and cons in the following table:
+        </p>
+        <table id="tb1">
+            <tr>
+                <th class="col1">Pros</th> <th>Cons</th>
+            </tr>
+            <tr>
+                <td class="col1">
+                    Fittest genotype is often under-represented in a population (because of selective interference, temporally and
+                    spatially varying environments, Red Queen dynamics with parasites, etc.). Sexual Reproduction, by generating diversity,
+                    increase the frequency of the fittest genotype.
+                </td>
+                <td>
+                    In very constant environment without parasitic load, sexual reproduction may be detrimental if generating diversity
+                    overall decrease the frequency of the fittest genotype and increase the frequencies of less fit genotypes.
+                </td>
+            </tr>
+            <tr>
+                <td class="col1">
+                    A more genetically-diverse population is more resilient to pathogens and extreme sudden environmental changes.
+                </td>
+                <td>
+                    Because of specific mating systems (for example, harems), some individuals may loose all opportunity to mate and reproduce
+                </td>
+            </tr>
+            <tr>
+                <td class="col1">
+                    Higher adaptive potential in case of progressive environmental changes.
+                </td>
+                <td>
+                    Outcrossers must spend time and resources to find a mate. Mating is also risky: during the very act, diseases can be transmitted 
+                   and vigilance to predators is reduced.
+               </td>
+            </tr>
+            <tr>
+                <td class="col1"></td>
+                <td>
+                    Meiosis is a physiologically and temporally costly process.
+                </td>
+            </tr>
+        </table>
+        <p>
+            Asexual Reproduction is the process by which a new individual is produced without fusing two independently-produced gametes. 
+            There are various types of asexual reproduction. Some of them are clonal: the resulting offspring is the exact copy (except for
+            possible mutations) of the mother. This can be done by Apomixis, whereby the whole meiotic process is by-passed and the offspring
+            is produced by mitosis. Alternatively, clonality can be the result of Endoduplication, a process by which a germ-line cell's genotype
+            is doubled before meiosis and the copies pair such that recombination and segregation do not alter genetic associations. An
+            alternative to clonality is Automixis. Automixis refers either to the fusion of gametes produced from the same meiotic divisions (in
+            contrast with self-fertilization, wherby the fused gametes come from different meiotic divisions), or to the doubling of the genetic material
+            of one gamete (which is equivalent to the fusion of this gamete with itself). Offsprings produced by Automixis are different from their
+            mothers - they are a re-hash of their mothers' genotype. Depending on the type of Automixis used, they exhibit varying rates of
+            loss of heterozygosity.<br/>
+            <br/>
+            Experimental breeding has consistently shown that asexual species reproduce rapidly, more rapidly than sexual species. Asexual 
+            reproduction is overall cheap and fast, but at the cost of a reduced genetic diversity. Below, a more complete list of the
+            positive and negative sides of Asexual Reproduction:
+        </p>
+        <table>
+            <tr>
+                <th class="col1">Pros</th> <th>Cons</th>
+            </tr>
+            <tr>
+                <td class="col1">
+                    Cheap, fast and safe reproductive process. 
+                </td>
+                <td>
+                    Rapid loss of diversity in clonal species: the population is made of a few clone lines within which individuals are
+                    identical. Such population is an easy target to pathogens and extreme environmental changes. Loss of heterozygosity 
+                    in automictic species: uncovering of deleterious alleles.
+                </td>
+            </tr>
+            <tr>
+                <td class="col1">
+                    Reproductive insurance: reproduction is guaranteed. As a result, asexuals are great colonizers of new environment.
+                </td>
+                <td>
+                    Overall reduced evolvability.
+                </td>
+            </tr>
+            <tr>
+                <td class="col1">
+                </td>
+                <td>
+                    Reduced fertility due to asexual species being derived from sexual species, and as such provided with a physiology
+                    and behaviour adapted to sexuality.
+               </td>
+            </tr>
+        </table>
+        </div>
+
+        <div id="Gyno" class="pro1">
+            <h2>Gynogenesis</h2>
+            <p>
+                Most of asexual species are parthenogenetic: a female produces offspring on her own. However, some species exhibit alternative
+                asexualities: gynogenesis and hybridogenesis. Hybridogenesis is not strictly asexual, and we shall not discuss it here. Gynogenesis
+                is a very peculiar mode of reproduction. Gynogens are clonal females who are unable, in contrast with parthenogenetic females, to trigger 
+                embryogenesis on their own: as sexual females, they need the fertilization of their egg by a male gamete for embryogenesis to start.
+                As gynogenetic species are only composed of females, this means that they need to mate with closely-related species. However, as clonals,
+                they produce diploid, unreduced eggs - the fertilization by a sperm should thus lead to a triploid offspring that would not be
+                a clon of the mother, and that would often not survive. To avoid that, gynogens get rid of the male's nucleus before it has time to decondense
+                and fuse with the female's nucleus. <br/>
+                <br/>
+                From an evolutive perspective and in relation with the Pros and Cons listed above, Gynogenesis does not seem to make sense. Gynogenesis
+                cumulates Cons of both sexuality and asexuality: it takes the time, resources and risk of mating, but also produce diversity-depleted
+                clonal populations. Alternatively, we could say that it suffers from the costs of sexuality without profiting from any of its 
+                benefits. Thus, many doubts remain in respect to how it has appeared and be maintained in natural populations.
+            </p>
+        </div>
+
+        <div id="AMolly" class="pro1">
+            <h2>The Case of the Amazon Molly</h2>
+            <div>
+                <div id="pMollies">
+                <p>
+                    The Amazon Molly (<i>Poecilia formosa</i>) is a streamwater, live-bearing fish native from the Gulf of Mexico, between northeastern Mexico and
+                    southeastern Texas. It actually was the first unisexual vertebrate to be discovered, as a result of the works of the Hubbs
+                    couple (1932).<br/>
+                    <br/>
+                    Molecular genetic data has shown that the Amazon Molly appeared as a result of hybridization of two closely-related species, 
+                    the Atlantic Molly (<i>Poecilia mexicana</i>, the mother species) and the Sailfin Molly (<i>Poecilia latipinna</i>, the father
+                    species). Estimates of the time passed since hybridization vary between 80,000 and 280,000 years.<br/>
+                    <br/>
+                    The Amazon Molly is a gynogenetic species only composed of females, and that relies on males of Atlantic and Sailfin Mollies to
+                    trigger embryogenesis and reproduce.<br/>
+                    <br/>
+                    Gynogenetic species like the Amazon Molly all share three characteristics:
+                </p>
+                <ol>
+                    <li>They clonally produce unreduced, diploid eggs.</li>
+                    <li>They discard the sperm's genomic material once it has entered the eggs.</li>
+                    <li>They only produce female offspring.</li>
+                </ol>
+                <p>
+                    It is unclear how these traits have appeared. It is thought that, in many species, the three traits appeared all at
+                    once as the direct consequence of an hybridization event. In this view, genomic incompatibilities between the parents' genomes
+                    disrupt meiosis, resulting in the production of unreduced clonal eggs which all developp into females because of the genetic
+                    sex determination system. Under this hypothesis, it is unclear how paternal genome elimination could have appeared as a result
+                    of hybridization.<br/>
+                    <br/>
+                    Although this hypothesis seems to be supported in some species, it is not the case for the Amazon Molly: intents of producing
+                    a gynogenetic hybrid by crossing <i>P. latipinna</i> and <i>P. mexicana</i> have consistently failed. If the three traits listed
+                    above have not appeared as a result of the hybridization event, what is the alternative?
+                </p>
+                </div>
+                <figure id="figImgMollies">
+                <img id="imgMollies" src="images/Mollies.jpg">
+                <figcaption id="capImgMollies">Fig. 1 - The Amazon Molly, along with its two parent species, the Sailfin Molly and the Atlantic Molly.</figcaption>
+                </figure>
+            </div>
+            <p>
+                    In this project, I explore another possibility: that these traits have appeared like most other phenotypic traits, as a result of 
+                    mutation and selection. It is highly improbable that a single mutation would create the three traits: I shall thus consider three
+                    separate mutations, coding for the three different traits. In this framework, my main objective is to decipher what would be the
+                    evolutionary road of gynogenesis: which trait would evolve first ? And second, and third ?
+            </p>
+        </div>
+    </article>
+</main>
+</body>
+</html>
