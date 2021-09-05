@@ -252,14 +252,14 @@ main article a:hover{
 
 .Project #img1{
 	width: 60vw;
-	min-width: 200px;
+	min-width: 300px;
 	margin-top:10vh;
 	margin-bottom: 10vh;
 }
 
 .Project #img2{
 	width: 50vw;
-	min-width: 200px;
+	min-width: 300px;
 	margin-top:10vh;
 	margin-bottom: 10vh;
 }
@@ -267,7 +267,7 @@ main article a:hover{
 .Project #figImg3{
 	display:table;
 	width:35vw;
-	min-width: 200px;
+	min-width: 300px;
 	margin:auto;
 }
 
@@ -284,14 +284,14 @@ main article a:hover{
 .Project #img4{
 	display:block;
 	width:30vw;
-	min-width: 200px;
+	min-width: 300px;
 	margin:auto;
 }
 
 .Project #figImg5{
 	display:table;
 	width:30vw;
-	min-width: 200px;
+	min-width: 300px;
 	margin:auto;
 }
 
@@ -308,7 +308,7 @@ main article a:hover{
 .Project #figImg6{
 	display:table;
 	width:25vw;
-	min-width: 200px;
+	min-width: 300px;
 	margin:auto;
 }
 
@@ -325,7 +325,7 @@ main article a:hover{
 .Project #figImg7{
 	display:table;
 	width:30vw;
-	min-width: 200px;
+	min-width: 300px;
 	margin:auto;
 	padding-top:15px;
 }
@@ -360,6 +360,7 @@ main article a:hover{
 	flex-flow: row wrap;
 	justify-content: space-between;
 	align-items: center;
+	align-content: space-between;
 }
 
 .Project #ContainerER{
@@ -440,8 +441,8 @@ main article a:hover{
 	margin-left:2vw;
 	margin-right:2vw;
 	padding-left:25px;
-	padding-right:10px;
-	padding-top:10px;
+	padding-right:20px;
+	padding-top:20px;
 }
 
 .Project #Predictions u:hover{
