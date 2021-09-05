@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+/*General Properties of the website*/
 html{
     font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
     font-size: 18px;
@@ -7,15 +8,12 @@ html{
 	scroll-behavior: smooth;
 }
 
-li{
-	list-style-type: none;
-}
-
 body{
 	margin:0px;
 	width:100%;
 }
 
+/*Header - fixed top banner*/
 header{
 	position: -webkit-sticky;
     position:sticky;
@@ -26,7 +24,11 @@ header{
     flex-flow: row wrap;
     align-content: center;
 	justify-content: space-between;
-	background-color: #d5fcd4;x
+	background-color: #d5fcd4;
+}
+
+header li{
+	list-style-type: none;
 }
 
 nav{
@@ -66,7 +68,7 @@ nav ul li a{
 	font-variant: small-caps;
 	color:#256d25;
 	text-decoration: none;
-	font-size: calc(10px + 1vw);
+	font-size: calc(16px + 0.7vw);
 }
 
 nav a:hover{
@@ -485,7 +487,7 @@ main article a:hover{
 .Project table th{
 	padding-bottom: 1vw;
 	padding-top:10px;
-	font-size: 30px;
+	font-size: 5vh;
 }
 
 #bannerProject{
