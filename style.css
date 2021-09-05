@@ -206,6 +206,7 @@ main article a:hover{
 	border-radius: 10px;
 	background-color: white;
 	width:40vw;
+	min-width:200px;
 }
 
 .Project #ToC li{
@@ -251,27 +252,47 @@ main article a:hover{
 
 .Project #img1{
 	width: 60vw;
+	min-width: 200px;
 	margin-top:10vh;
 	margin-bottom: 10vh;
 }
 
 .Project #img2{
 	width: 50vw;
+	min-width: 200px;
 	margin-top:10vh;
 	margin-bottom: 10vh;
 }
 
-.Project #img3{
+.Project #figImg3{
+	display:table;
 	width:35vw;
+	min-width: 200px;
+	margin:auto;
+}
+
+.Project #img3{
+	display:block;
+	width:100%;
+}
+
+.Project #capImg3{
+	display: table-caption;
+	caption-side: bottom;
 }
 
 .Project #img4{
+	display:block;
 	width:30vw;
+	min-width: 200px;
+	margin:auto;
 }
 
 .Project #figImg5{
 	display:table;
-	width:35vw;
+	width:30vw;
+	min-width: 200px;
+	margin:auto;
 }
 
 .Project #img5{
@@ -287,6 +308,8 @@ main article a:hover{
 .Project #figImg6{
 	display:table;
 	width:25vw;
+	min-width: 200px;
+	margin:auto;
 }
 
 .Project #img6{
@@ -302,6 +325,7 @@ main article a:hover{
 .Project #figImg7{
 	display:table;
 	width:30vw;
+	min-width: 200px;
 	margin:auto;
 	padding-top:15px;
 }
@@ -331,24 +355,50 @@ main article a:hover{
 	caption-side: bottom;
 }
 
+.Project #ContainerModel{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Project #ContainerER{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Project #ContainerRec{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Project #ContainerClon{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-between;
+}
+
 .Project div div #p1{
-	display: inline-block;
-	width:50vw;
+	width:110vh;
 }
 
 .Project div div #p2{
-	display: inline-block;
-	width:55vw;
+	width:120vh;
 }
 
 .Project div div #p3{
-	display: inline-block;
-	width:50vw;
+	width:120vh;
 }
 
 .Project div div #p4{
 	display: inline-block;
-	width:55vw;
+	width:120vh;
 }
 
 .Project div div #pMollies{
@@ -379,7 +429,7 @@ main article a:hover{
 	list-style-type: decimal;
 	margin-bottom:20px;
 	text-align: justify;
-	padding-right:2vw;
+	margin-left:1px;
 }
 
 .Project #Predictions{
@@ -387,9 +437,11 @@ main article a:hover{
 	border-radius: 10px;
 	background-color: white;
 	margin-top:20px;
-	padding-top:15px;
 	margin-left:2vw;
 	margin-right:2vw;
+	padding-left:25px;
+	padding-right:10px;
+	padding-top:10px;
 }
 
 .Project #Predictions u:hover{
@@ -538,7 +590,7 @@ main article a:hover{
 }
 
 #research img{
-	height:40vh;
+	height:30vh;
 	border: 2px #BA3204 solid;
 }
 
@@ -569,7 +621,7 @@ main article a:hover{
     justify-content: space-around;
     align-content: space-around;
     align-items: center;
-     	width:40vh;
+	width:40vh;
 }
 
 #publication{
