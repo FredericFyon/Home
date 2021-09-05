@@ -441,8 +441,8 @@ main article a:hover{
 	margin-left:2vw;
 	margin-right:2vw;
 	padding-left:25px;
-	padding-right:20px;
-	padding-top:20px;
+	padding-right:5vh;
+	padding-top:5vh;
 }
 
 .Project #Predictions u:hover{
