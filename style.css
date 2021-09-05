@@ -68,7 +68,7 @@ nav ul li a{
 	font-variant: small-caps;
 	color:#256d25;
 	text-decoration: none;
-	font-size: calc(16px + 0.7vw);
+	font-size: calc(20px + 0.5vh);
 }
 
 nav a:hover{
@@ -88,7 +88,7 @@ nav a:hover{
 }
 
 #media img{
-	height:calc(8px + 2vw);
+	height:calc(8px + 5vh);
 	margin-left:3vw;
 	border: 1.5px #256d25 solid;
 }
