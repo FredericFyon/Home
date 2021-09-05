@@ -155,11 +155,13 @@ main article a:hover{
 	position: absolute;
 	display: flex;
     flex-flow: row wrap;
+	align-items: center;
 	font-size: 0.9em;
+	margin-bottom:8vh;
 }
 
 .Project .LinkProj img{
-	width:2vw;
+	height:5vh;
 	border:none;
 }
 
@@ -170,7 +172,7 @@ main article a:hover{
 
 .Project #toAM{
 	right:1vw;
-	font-size: 4vh;
+	font-size: 3vh;
 }
 
 .Project #toAM img{
@@ -180,7 +182,7 @@ main article a:hover{
 .Project #toER{
 	left:1vw;
 	margin-right:15vw;
-	font-size: 4vh;
+	font-size: 3vh;
 }
 
 .Project #toER img{
@@ -387,7 +389,7 @@ main article a:hover{
 	align-content: space-between;
 }
 
-.Project #AMolly{
+.Project #ContainerAMolly{
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
@@ -412,17 +414,17 @@ main article a:hover{
 }
 
 .Project div div #pMollies{
-	width:140vh;
+	max-width:140vh;
 }
 
-.Project div div #pMollies li{
+.Project div div ol li{
 	list-style-type: decimal;
 	margin-left: 4vw;
 	padding-left: 2vw;
 	margin-bottom: 2vh;
 }
 
-.Project div div #pMollies ol{
+.Project div div ol{
 	margin-bottom: 7vh;
 }
 
