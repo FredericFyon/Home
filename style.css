@@ -132,6 +132,145 @@ main article a:hover{
 	color:#BA3204;
 }
 
+/*MAIN - Home Banner*/
+
+#home{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+	background-image:url("images/Decor.jpg");
+	background-size: cover;
+	background-position: center;
+	height:80vh;
+}
+
+#home img{
+	width:calc(80px + 20vw);
+	margin-left:-5vw;
+	border:#256d25 1.5px solid;
+}
+
+#home div{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: flex-start;
+	width:38vw;
+	padding:10px;
+	padding-left:3vw;
+	margin-left:5vw;
+	border:#256d25 1.5px solid;
+	border-radius: 7px;
+	background-color: white;
+}
+
+#home h1{
+	color:#256d25;
+	font-size: max(30px,3vw);
+    font-weight: bold;
+	margin-top:10px;
+	margin-bottom:5px;
+	width:40vw;
+}
+
+#home h2{
+    color:#256d25;
+    font-size:max(20px,1.5vw);
+    margin-top:5px;
+	margin-bottom:10px;
+    font-weight: bold;
+    -webkit-text-stroke: 0.1px white;
+}
+
+/*MAIN - Presentation Section*/
+
+#moi{
+	background-color: honeydew;
+	min-height:90vh;
+}
+
+#moi p{
+	font-weight: bold;
+    line-height:1.5;
+}
+
+#moi #socialM{
+	width:75%;
+	margin:auto;
+	margin-top:8vh;
+}
+
+#moi #socialM ul{
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+	list-style: none;
+}
+
+#moi a,#moi a:visited{
+	color:black;
+}
+
+#moi a:hover{
+	color:#BA3204;
+}
+
+#moi #socialM a img{
+	height:calc(16px + 3vw);
+}
+
+#moi #socialM a img:hover{
+	transform:translate(0px,-2vh);
+	transition: transform .3s ease-in-out;
+}
+
+#moi p{
+	text-align: justify;
+}
+
+/*MAIN - Research Section*/
+
+#research{
+	background-color: lemonchiffon;
+	min-height: 90vh;
+}
+
+#research img{
+	height:30vh;
+	border: 2px #BA3204 solid;
+}
+
+#research p{
+	margin-top:3vw;
+	text-align: center;
+	font-weight: bold;
+}
+
+#research #wrapper{
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: baseline;
+}
+
+#research .project{
+	margin-top:15vh;
+	display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+	width:40vh;
+}
+#research .project:hover{
+	transform:translate(0px,-2vh);
+	transition: transform .2s ease-in-out;
+}
+
 /*MAIN - Individual Project Pages - General Properties*/
 
 .Project{
@@ -524,157 +663,15 @@ main article a:hover{
 	font-weight: bold;
 }
 
-/*MAIN - Home Banner*/
-
-#home{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-	background-image:url("images/Decor.jpg");
-	background-size: cover;
-	background-position: center;
-	height:80vh;
-}
-
-#home img{
-	width:calc(80px + 20vw);
-	margin-left:-5vw;
-}
-
-#home img:hover{
-    border: 1.5px #BA3204 solid;
-    margin-right:2vw;
-    transition: margin-right .2s ease-in-out;
-}
-
-#home div{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
-    align-content: space-around;
-    align-items: flex-start;
-	width:38vw;
-	padding:10px;
-	padding-left:3vw;
-	margin-left:5vw;
-	border:#BA3204 1.5px solid;
-	border-radius: 7px;
-	background-color: white;
-}
-
-#home h1{
-	color:#ffbe44;
-	font-size: max(30px,3vw);
-    font-weight: bold;
-	-webkit-text-stroke: 0.5px black;
-	margin-top:10px;
-	margin-bottom:5px;
-	width:40vw;
-}
-
-#home h2{
-    color:black;
-    font-size:max(20px,1.5vw);
-    margin-top:5px;
-	margin-bottom:10px;
-    font-weight: bold;
-    -webkit-text-stroke: 0.1px white;
-}
-
-/*MAIN - Presentation Section*/
-
-#moi{
-	background-color: honeydew;
-	min-height:90vh;
-}
-
-#moi p{
-	font-weight: bold;
-    line-height:1.5;
-}
-
-#moi #socialM{
-	width:75%;
-	margin:auto;
-	margin-top:8vh;
-}
-
-#moi #socialM ul{
-	display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-content: space-between;
-}
-
-#moi a,#moi a:visited{
-	color:black;
-}
-
-#moi a:hover{
-	color:#BA3204;
-}
-
-#moi #socialM a img{
-	height:calc(16px + 3vw);
-}
-
-#moi #socialM a img:hover{
-	margin-top:-2vh;
-	transition: margin-top .3s ease-in-out;
-}
-
-#moi p{
-	text-align: justify;
-}
-
-/*MAIN - Research Section*/
-
-#research{
-	background-color: lemonchiffon;
-	min-height: 90vh;
-}
-
-#research img{
-	height:30vh;
-	border: 2px #BA3204 solid;
-}
-
-#research img:hover{
-	margin-top:-2vh;
-	margin-bottom:2vh;
-	transition: margin-top .2s ease-in-out, margin-bottom .2s ease-in-out;
-}
-
-#research p{
-	margin-top:3vw;
-	text-align: center;
-	font-weight: bold;
-}
-
-#research #wrapper{
-	display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-content: space-between;
-    align-items: baseline;
-}
-
-#research .project{
-	margin-top:15vh;
-	display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
-    align-content: space-around;
-    align-items: center;
-	width:40vh;
-}
-
 /*MAIN - Publication Section*/
 
 #publication{
 	background-color:#fae8e2;
 	min-height: 90vh;
+}
+
+#publication ul{
+	list-style-type: none;
 }
 
 #publication a{
@@ -684,12 +681,11 @@ main article a:hover{
 
 #publication a:hover{
 	color:#BA3204;
-	
 }
 
 #publication ul li:hover{
-	padding-left:2vw;
-	transition: padding-left .5s ease;
+	transform:translate(2vw,0px);
+	transition: transform .5s ease-in-out;
 }
 
 /*MAIN - Contact Section*/

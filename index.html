@@ -48,7 +48,7 @@
 			<br/>
 			<br/>
 			Presently a Postdoctoral researcher at <a href="https://www.royalholloway.ac.uk/" target="_blank"> Royal Holloway, University of London</a> 
-			under the supervison of Prof. Francisco Úbeda (link), I am a population genetics theoretician. I have been interested in all 
+			under the supervison of Prof. Francisco Úbeda, I am a population genetics theoretician. I have been interested in all 
 			sorts of genetic oddities, with transversal themes including sexual reproduction, sex chromosomes, recombination and selfish 
 			genetic processes. You will find more details in the <a href="#research" target="_blank"> Research section</a>. In a few words, I have mostly 
 			used mathematical analysis and computer simulations to formulate various novel theories.
@@ -82,23 +82,18 @@
 		<article id="research">
 			<h3>My Research</h3>
 				<div id="wrapper">
+					<a href="GeneExpression.html" >
 					<div class="project">
-						<a href="GeneExpression.html" ><img src="images/ER2.png"></a>
+						<img src="images/ER2.png">
 						<p>Enhancer Runaway and the Evolution of Diploid Gene Expression</p>
-							<!--<p>My PhD project, under the supervision of Dr. Thomas Lenormand, aimed at modelling and understanding the evolution of gene expression <i>cis</i>-regulatory sequences. We uncovered that, in diploids, a linkage disequilibrium may be built between <i>cis</i>-regulators increasing gene expression and more viable gene copies. In sexual species, this would translate into stronger and stronger cis-regulators being selected for, a process we called Enhancer Runaway. We emphasized that this should not mean the evolution of greater cellular protein concentrations: the actual amount of proteins produced being under the control of various <i>cis</i>- and <i>trans</i>-regulatory sequences, coevolution can easily allow for this runaway without letting proteing production deviate from optimal levels. Altermatively in species reproducing clonally, the same runaway process should lead to the divergence of homologous chromosomes within lineages, one chromosome getting stronger and stronger cis-regulators and more and more viable gene copies, while the homologous chromosome would accumulate weaker and weaker cis-regulators and deleterious mutations on the gene. We called this second process Enhancer Divergence. Finally, we interestingly showed that Enhancer Divergence applied to sexual chromosomes would lead to the classical evolution of sexual chromosome, with the Y/W chromosomes accumulating deleterious mutations and getting simultaneously shut down. We thus provided an alternative theory of sexual chromosome evolution, a theory that does not require selection interference between loci under selection, contrarily to current, widely-accepted theories.</p>
-						-->
 					</div>
+					</a>
+					<a href="AmazonMolly.html" >
 					<div class="project">
-						<a href="AmazonMolly.html" ><img src="images/AM.jpg"></a>
+						<img src="images/AM.jpg">
 						<p>Evolution of Asexuality in the Amazon Molly</p>
-							<!--<p>The Amazon Molly is a stunning fish : although reproducing clonally for a long time, it exhibits normal genetic diversity. What is more, it dos not perform any type of asexual reproduction : it is a gynogenetic, a rare and puzzling reproductive strategy.<br/>
-							<br/>
-						Gynogenesis consists in mating with males from different, closely-related species. The foreign sperm fertilises the egg, but in some way the egg then discards the DNA from the sperm, leading to the production of a offspring that is a clone from the mother. This reproductive strategy does not make sense, if we follow classic evolutionary theory : it bears both the cost of sexual reproduction (finding a mate, transmitting diseases or parasites, ...) and the cost of asexual reproduction (loss of genetic blending and diversity). How can we explain the evolution of Gynogenesis then ?<br/>
-							<br/>
-						We know that the Amazon Molly originally came from hybridization between two closely-related species of mollies. Our goal, in collaboration with Dr. Ingo Schlupp's team in Oklahoma, is to reconstruct the evolutionary steps that probably led from the initial hybrid to the present-day Amazon Molly. This exciting study will allow us to know more about the evolution of gynogenesis in general, and even more generally about the evolution of reproduction strategies.
-						</p>
-						-->
 					</div>
+					</a>
 				</div>
 		</article>
 		
@@ -129,15 +124,14 @@
 		</article>
 		
 		<article id="contact">
-			<form class="form" method="POST">
+			<form class="form" method="POST" action="Contact.php" enctype="text/plain">
 				<div class="pageTitle title">Contact Me </div>
 				<div class="secondaryTitle title">Please fill this form to send me an e-mail. Your data will not be shared with any third party for any purpose whatsoever.</div>
 				<input type="text" class="name formEntry" name="Name" placeholder="Your Name"/>
 				<input type="text" class="email formEntry" name="Email" placeholder ="Your E-mail Address"/>
 				<textarea class="message formEntry" name="Message" placeholder="Your Message"></textarea>
-				<input class="submit formEntry" type="submit" name="Submit" value="Submit"/>
+				<input class="submit formEntry" type="submit" name="Submit" value="Send"/>
 			  </form>
-			  <?php include "Contact2.php"?>
 		</article>
 	</main>
 	
