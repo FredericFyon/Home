@@ -139,7 +139,7 @@ main article a:hover{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-	background-image:url("images/Decor.jpg");
+	background-image:url("images/Decor.webp");
 	background-size: cover;
 	background-position: center;
 	height:80vh;
