@@ -116,10 +116,6 @@ h1,h2,h3{
 	font-size: 1.5em;
 }
 
-h4{
-	color:#BA3204;
-}
-
 main article p{
 	text-align: justify;
 }
@@ -250,6 +246,9 @@ main article a:hover{
 }
 
 #research h4{
+	color:#BA3204;
+	font-size: 1.1em;
+}
 	
 
 #research .wrapper{
