@@ -245,9 +245,12 @@ main article a:hover{
 
 #research p{
 	margin-top:3vw;
-	text-align: center;
+	text-align: justify;
 	font-weight: bold;
 }
+
+#research h4{
+	
 
 #research .wrapper{
 	display: flex;
