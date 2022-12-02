@@ -245,11 +245,14 @@ main article a:hover{
 	font-weight: bold;
 }
 
+#research .wrapper p{
+	text-align: center;
+}
+
 #research h4{
-	color:#BA3204;
+	color:#d5fcd4;
 	font-size: 1.1em;
 }
-	
 
 #research .wrapper{
 	display: flex;
