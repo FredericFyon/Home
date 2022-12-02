@@ -249,7 +249,7 @@ main article a:hover{
 	font-weight: bold;
 }
 
-#research #wrapper{
+#research .wrapper{
 	display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
