@@ -328,48 +328,6 @@ main article a:hover{
 	padding-top:5vh;
 }
 
-/*MAIN - Individual Project Pages - Link to other projects*/
-
-.Project .LinkProj{
-	font-style: italic;
-	color:goldenrod;
-	position: absolute;
-	display: flex;
-    flex-flow: row wrap;
-	align-items: center;
-	font-size: 0.9em;
-	margin-bottom:8vh;
-}
-
-.Project .LinkProj img{
-	height:5vh;
-	border:none;
-}
-
-.Project .LinkProj:hover{
-	margin-top:-1vh;
-	transition: margin-top .1s ease-in-out;
-}
-
-.Project #toAM{
-	right:1vw;
-	font-size: 3vh;
-}
-
-.Project #toAM img{
-	margin-left:1vw;
-}
-
-.Project #toER{
-	left:1vw;
-	margin-right:15vw;
-	font-size: 3vh;
-}
-
-.Project #toER img{
-	margin-right:1vw;
-}
-
 /*MAIN - Individual Project Pages - Table of Contents*/
 
 .Project #ToC{
@@ -598,7 +556,7 @@ main article a:hover{
 }
 
 .Project div div #pMollies{
-	max-width:140vh;
+	max-width:120vh;
 }
 
 .Project div div ol li{
