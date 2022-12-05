@@ -626,6 +626,25 @@ main article a:hover{
 	caption-side: bottom;
 }
 
+.Project #figImgStoch{
+	display:table;
+	width:60vw;
+	min-width: 300px;
+	margin:auto;
+	margin-top:10vh;
+	margin-bottom:10vh;
+}
+
+.Project #imgStoch{
+	display:block;
+	width:100%;
+}
+
+.Project #capImgStoch{
+	display: table-caption;
+	caption-side: bottom;
+}
+
 /*MAIN - Individual Project Pages - Text*/
 
 .Project div div #p1{
