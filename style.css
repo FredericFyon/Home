@@ -611,7 +611,7 @@ main article a:hover{
 
 .Project #figImgAsynch{
 	display:table;
-	width:60vw;
+	width:40vw;
 	min-width: 300px;
 	margin:auto;
 	margin-top:10vh;
@@ -630,7 +630,7 @@ main article a:hover{
 
 .Project #figImgStoch{
 	display:table;
-	width:60vw;
+	width:40vw;
 	min-width: 300px;
 	margin:auto;
 	margin-top:10vh;
