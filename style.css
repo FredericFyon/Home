@@ -537,6 +537,29 @@ main article a:hover{
 	caption-side: bottom;
 }
 
+.Project #imgPRDM9{
+	width: 60vw;
+	min-width: 300px;
+	margin-top:10vh;
+	margin-bottom: 10vh;
+}
+
+.Project #figImgPRDM9{
+	display:table;
+	width:20vw;
+	min-width: 300px;
+}
+
+.Project #imgPRDM9{
+	display:block;
+	width:100%;
+}
+
+.Project #capImgPRDM9{
+	display: table-caption;
+	caption-side: bottom;
+}
+
 /*MAIN - Individual Project Pages - Text*/
 
 .Project div div #p1{
