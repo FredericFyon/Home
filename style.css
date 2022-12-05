@@ -579,6 +579,23 @@ main article a:hover{
 	caption-side: bottom;
 }
 
+.Project #figImgCycle{
+	display:table;
+	width:30vw;
+	min-width: 300px;
+	margin:auto;
+}
+
+.Project #imgCycle{
+	display:block;
+	width:100%;
+}
+
+.Project #capImgCycle{
+	display: table-caption;
+	caption-side: bottom;
+}
+
 /*MAIN - Individual Project Pages - Text*/
 
 .Project div div #p1{
@@ -598,6 +615,14 @@ main article a:hover{
 }
 
 .Project div div #pMollies{
+	max-width:120vh;
+}
+
+.Project div div .DynText{
+	max-width:120vh;
+}
+
+.Project div div .CycleText{
 	max-width:120vh;
 }
 
