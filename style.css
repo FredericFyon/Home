@@ -423,7 +423,7 @@ main article a:hover{
 	align-content: space-between;
 }
 
-.Project .Dyn{
+.Project #Dyn{
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
@@ -431,7 +431,7 @@ main article a:hover{
 	align-content: space-between;
 }
 
-.Project .Cycle{
+.Project #Cycle{
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
@@ -643,11 +643,11 @@ main article a:hover{
 	max-width:120vh;
 }
 
-.Project div div .DynText{
+.Project div div #DynText{
 	max-width:120vh;
 }
 
-.Project div div .CycleText{
+.Project div div #CycleText{
 	max-width:120vh;
 }
 
