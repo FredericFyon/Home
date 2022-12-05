@@ -596,6 +596,23 @@ main article a:hover{
 	caption-side: bottom;
 }
 
+.Project #figImgAsynch{
+	display:table;
+	width:60vw;
+	min-width: 300px;
+	margin:auto;
+}
+
+.Project #imgAsynch{
+	display:block;
+	width:100%;
+}
+
+.Project #capImgAsynch{
+	display: table-caption;
+	caption-side: bottom;
+}
+
 /*MAIN - Individual Project Pages - Text*/
 
 .Project div div #p1{
