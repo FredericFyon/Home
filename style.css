@@ -558,6 +558,9 @@ main article a:hover{
 	width:60vw;
 	min-width: 300px;
 	margin:auto;
+	margin-top:10vh;
+	margin-bottom:10vh;
+		
 }
 
 .Project #imgPRDM9{
@@ -609,6 +612,8 @@ main article a:hover{
 	width:60vw;
 	min-width: 300px;
 	margin:auto;
+	margin-top:10vh;
+	margin-bottom:10vh;
 }
 
 .Project #imgAsynch{
