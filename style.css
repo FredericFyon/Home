@@ -537,17 +537,11 @@ main article a:hover{
 	caption-side: bottom;
 }
 
-.Project #imgPRDM9{
-	width: 60vw;
-	min-width: 300px;
-	margin-top:10vh;
-	margin-bottom: 10vh;
-}
-
 .Project #figImgPRDM9{
 	display:table;
 	width:60vw;
 	min-width: 300px;
+	margin:auto;
 }
 
 .Project #imgPRDM9{
