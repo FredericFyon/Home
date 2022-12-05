@@ -431,6 +431,14 @@ main article a:hover{
 	align-content: space-between;
 }
 
+.Project .Cycle{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-between;
+}
+
 /*MAIN - Individual Project Pages - Images*/
 
 .Project figure figcaption{
