@@ -643,11 +643,11 @@ main article a:hover{
 	max-width:120vh;
 }
 
-.Project div div #DynText{
+.Project #DynText{
 	max-width:120vh;
 }
 
-.Project div div #CycleText{
+.Project #CycleText{
 	max-width:120vh;
 }
 
