@@ -423,6 +423,14 @@ main article a:hover{
 	align-content: space-between;
 }
 
+.Project .Dyn{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-between;
+}
+
 /*MAIN - Individual Project Pages - Images*/
 
 .Project figure figcaption{
@@ -550,6 +558,23 @@ main article a:hover{
 }
 
 .Project #capImgPRDM9{
+	display: table-caption;
+	caption-side: bottom;
+}
+
+.Project #figImgDyn{
+	display:table;
+	width:30vw;
+	min-width: 300px;
+	margin:auto;
+}
+
+.Project #imgDyn{
+	display:block;
+	width:100%;
+}
+
+.Project #capImgDyn{
 	display: table-caption;
 	caption-side: bottom;
 }
