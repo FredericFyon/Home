@@ -594,7 +594,7 @@ main article a:hover{
 
 .Project #figImgCycle{
 	display:table;
-	width:30vw;
+	width:10vw;
 	min-width: 300px;
 	margin:auto;
 }
@@ -674,7 +674,7 @@ main article a:hover{
 }
 
 .Project #CycleText{
-	max-width:120vh;
+	max-width:140vh;
 }
 
 .Project div div ol li{
