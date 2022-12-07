@@ -539,18 +539,18 @@ main article a:hover{
 	caption-side: bottom;
 }
 
-.Project #figImgMollies{
+.Project #figImgPhylo{
 	display:table;
 	width:20vw;
 	min-width: 300px;
 }
 
-.Project #imgMollies{
+.Project #imgPhylo{
 	display:block;
 	width:100%;
 }
 
-.Project #capImgMollies{
+.Project #capImgPhylo{
 	display: table-caption;
 	caption-side: bottom;
 }
@@ -665,7 +665,7 @@ main article a:hover{
 	width:120vh;
 }
 
-.Project div div #pMollies{
+.Project div div #H&AText{
 	max-width:120vh;
 }
 
