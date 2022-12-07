@@ -415,7 +415,7 @@ main article a:hover{
 	align-content: space-between;
 }
 
-.Project #H&AContainer{
+.Project #HAContainer{
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
@@ -672,7 +672,7 @@ main article a:hover{
 	width:120vh;
 }
 
-.Project #H&Atext{
+.Project #HAtext{
 	max-width:120vh;
 }
 
