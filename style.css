@@ -415,6 +415,13 @@ main article a:hover{
 	align-content: space-between;
 }
 
+.Project #H&AContained{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-between;
+}
 .Project #ContainerAMolly{
 	display: flex;
 	flex-flow: row wrap;
