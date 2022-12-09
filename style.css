@@ -751,6 +751,31 @@ main article a:hover{
 	font-weight: bold;
 }
 
+/*MAIN - Individual Project Pages - Publication Section*/
+
+.publiProject{
+	background-color:honeydew;
+	min-height: 90vh;
+}
+
+.publiProject ul{
+	list-style-type: none;
+}
+
+.publiProject a{
+	font-weight: bold;
+	color:black;
+}
+
+.publiProject a:hover{
+	color:#BA3204;
+}
+
+.publiProject ul li:hover{
+	transform:translate(2vw,0px);
+	transition: transform .5s ease-in-out;
+}
+
 /*MAIN - Publication Section*/
 
 #publication{
