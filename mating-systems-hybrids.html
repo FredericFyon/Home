@@ -48,7 +48,7 @@
                  
         <h1>Introgression patterns in Hybrid Zones between Species with Different Mating Systems</h1>
 		
-	<p class="collab" target="_blank">In collaboration with: <a href="https://waldirmbf.github.io/"> Dr. Waldir Berbel-Filho </a> </p>
+	<p class="collab">In collaboration with: <a href="https://waldirmbf.github.io/" target="_blank"> Dr. Waldir Berbel-Filho </a> </p>
 
         <a id="BackToTop" href=#Top><img src="images/UpArr.png" alt="Link to the top of the page in shape of a curved upward arrow."></a> 
 
@@ -56,10 +56,9 @@
         <h2>Table of contents</h2>
         
         <ol id="ToC">
-            <li id="li1"><a href=#Paradox>Current Knowledge</a></li>
-            <li><a href=#DR>Death and Resuscitation of Recombination Hotspots</a></li>
-	    <li><a href=#RL>Rapidly evolving Recombination Landscapes</a></li>
-	    <li><a href=#PRDM9>Evolutionary origin of PRDM9</a></li>
+            <li id="li1"><a href=#Current>Current Knowledge</a></li>
+            <li><a href=#Predictions>Predictions of Other Models</a></li>
+	    <li><a href=#Results>Unexpected Results</a></li>
         </ol>
         </div>
 
@@ -80,107 +79,47 @@
 		hybridization can also take place between lineages that exhibit important differences. For example, hybridization between self-fertilizers (organisms that fertilize
 		themselves) and outcrossers (organisms that fertilize other individuals) have been reported in many plants; at least one example is known in animals. Differences
 		in mating systems are expected to result in the evolution of different behavioural, physiological, and genetic traits. Looking at hybrids and introgression patterns
-		between such species gives us valuable information on this evolution.
+		between such species gives us valuable information on this evolution.<br/><br/>
 		
 		One example of such evolution is the different accumulation of <strong>mutation load</strong> expected in outcrossers and selfers. In selfers, high levels of
 		homozygosity are expected to reveal and purge highly deleterious, strongly recessive mutations, otherwise hidden to selection in heterozygote outcrossers. As a result,
 		outcrossers accumulate a certain mutation load in the form of highly deleterious, strongly recessive mutations maintained at low frequency. Selfers
 		suffer, on the other hand, from higher genetic drift and selection interference. Both mean that slightly deleterious, codominant mutations are expected
 		to fix more easily in selfers than in outcrossers. In other words, selfers are expected to accumulate mutation load in the form of fixed slightly
-		deleterious, codominant mutations.
+		deleterious, codominant mutations.<br/><br/>
+		
+		In this work, we ask how these different mutation loads should play out when "up against each other" in hybrids formed from selfing and outcrossing parents.
 	</p>
         </div>
 
-        <div id="DR" class="pro3">
-            <h2>Death and Resuscitation of Recombination Hotspots</h2>
+        <div id="Predictions" class="pro3">
+            <h2>Predictions of Other Models</h2>
 		<p>
-			To better understand the evolutionary dynamics of PRDM9-directed recombination hotspots, we build the first model formally taking into account:
-		</p>	
+			Previous work as hinted at predicting what should happen in such a case. </br></br>
 		
-		<ul>
-			<li><p>allele matches between PRDM9 and target sequences</p></li>
-			<li><p>gene conversion at target loci</p></li>
-			<li><p>selection for crossing-over</p></li>
-			<li><p>mutation at PRDM9 and target sequences</p></li>
-		</ul>
+		<a href="https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.16180" target="_blank"> Pickup et al.</a> emitted the argument that it would mostly depend on the hybrids'
+		mating system. If hybrids self-fertilize, strongly deleterious, recessive mutations born by the genome inherited from the outcrossing parent should rapidly
+		become homozygote and get eliminated, along with other outcrossing parent's linked genes. Reversely, if the hybrids outcross, strongly deleterious, recessive
+		mutations will stay hidden. This time the selfing genome should be at a loss because of the many slightly deleterious mutations it bears, and thus should get 
+		preferentially eliminated. Overall, they thus predict limited introgression between species with different mating systems. </br><br/>
 		
-		<div id="Dyn">
-			<div id="DynText">
-		<p> The dynamics of the resulting system can be observed on Fig. 2. We deciphered 3 possible scenarios:</p>
-			
-            	<ol>
-			<li><p>When selection for crossing-overs is strong (<em>f > c/2</em>, with <em>f</em> the fertility cost of an absence of crossing-overs
-				and <em>c</em> the gene conversion rate), the system converges towards the fixation of one of the <em>hot</em> haplotypes (A1B1 or A2B2: PRDM9
-				allele matches target allele). This coincides with previous results:under intense selection for crossing-overs, hotspots are maintained and are never eroded. </p></li>
-			<li><p>When selection for crossing-overs is strong (<em>f > c/2</em>) and initial frequencies are within its basin of attraction, the system converges towards
-				an internal equilibrium with intermediary frequencies of all 4 haplotypes.Here an equilibrium is found between the opposing forces of selection and conversion:
-				hotspots converge to a mild state. This does not fit empirical data of rapidly evolving recombination landscapes.</p></li>
-			<li><p>Otherwise, if initial frequencies are sufficiently extreme, we observe that the equilibrium found between selection and conversion is dynamical</p></li>
-		</ol>
-			</div>
-			<figure id=figImgDyn>
-			<img id="imgDyn" src="images/Dyn.jpg" alt="Dynamics of the system studied.">
-			<figcaption id="capPRDM9">
-			"Fig. 2: Dynamics of a 2-locus 2-allele model describing the mechanism of PRDM9."
-			</figcaption>
-		</figure>
-		</div>
-		<div id="Cycle">
-			<figure id=figImgCycle>
-			<img id="imgCycle" src="images/Cycle.jpg" alt="Death and Resuscitation dynamics.">
-			<figcaption id="capCycle">
-			Fig. 3: Hotspots die by gene conversion, but are resuscitated by selection for crossing-over.
-			</figcaption>
-		</figure>
-			<div id="CycleText">
-		<p>
-			Fig. 3 gives an idea of what happens in this latter case. We see that <em>hot</em> haplotypes are converted into <em>cold</em> haplotypes (for example, A1B1 into A1B2).
-			Then, however, selection for crossing-overs rescue the hotspot, driving the spread of an alternative PRDM9 allele that binds the converted target allele (for example, 
-			A2 spreads in response of the conversion of A1B1 into A1B2; now, A2B2 is the dominant, <em>hot</em> haplotype).<br/><br/>
-			
-			The Red Queen theory is correct in arguing that selection for alternative PRDM9 alleles is responsible for restoring crossing-over levels. However, we show here
-			that there is no need for selecting for PRDM9 alleles that bind new sets of targets. Instead, we argue that PRDM9 should change to bind now <em>cold</em>, but previously <em>hot</em>
-			targets. Our model is compaible with empirical data on rapidly evolving PRDM9 and recombination landscapes, without requiring constantly finding new targets
-			to bind.
+		<a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1007741" target="_blank"> Kim et al.</a> actually ran simulations and predicted that selfers'
+		genome should preferentially be eliminated from hybrids' inheritance as they are of worse quality. However, it is unclear to what extent the results they obtain
+		rely on the particular genomic set-up and parameters they use, as they do not explore parameter space.</br></br> 
 		</p>
-			</div>
-		</div>
-			
-			In an extension of the model, we look at the case where there are two target loci. Interestingly, we see on Fig. 4 that crossing-over levels at the two targets tend to fluctuate in
-			asynchrony: recombination landscapes vary rapidly while overall crossing-over levels remain stable. This is also a pattern that fits empirical knowledge and is
-			difficult to explain via the Red Queen theory.
-		</p>
-		<figure id=figImgAsynch>
-			<img id="imgPRDM9" src="images/Asynch.jpg" alt="Asynchronous oscillations of two hotspots.">
-			<figcaption id="capAsynch">
-			Fig. 4: Asynchronous oscillations of two hotspots.
-			</figcaption>
-		</figure>
         </div>
 
-        <div id="RL" class="pro3">
-            <h2>Rapidly evolving Recombination Landscapes</h2>
+        <div id="Results" class="pro3">
+            <h2>Unexpected Results</h2>
                 <p>
-                    We ran numerical simulations of this model with a varying number of target loci. An example of results is shown on Fig. XX. We see that in stochastic
-			simulations, each target locus fluctuates between <em>hot</em> and <em>cold</em> states, while overall mean crossing-over rates are much more stable.
-			Interestingly, we see that two simulations with the same sets of loci and with the same initial conditions rapidly diverge, showing at any given time different
-			combinations of <em>hot</em> targets. As such, our model is compatible with the observation that closely-related species exhibit very different
-			recombination landscape: even though they use overall the same set of targets, the actual combinations of hotspots can be very different. <br/> <br/>
-			
-		    <figure id=figImgStoch>
-			<img id="imgStoch" src="images/Stoch.jpg" alt="Stochastic simulations with 10 targets.">
-			<figcaption id="capStoch">
-			Fig. 5: Results obtained from stochastic simulations with 10 target loci.
-			</figcaption>
-		</figure>
-			
-			PRDM9 is known from empirical data to exhibit a particularly high mutation rate, 10-fold higher than for other genes. Thought to be in part responsible 
-			for PRDM9's fast evolutionary changes, the cause of this feature is still unknown. To explore whether our model can account for that too, we build a 3-locus
-			extension with: one target locus, one PRDM9 locus and one mutation modifier locus. <br/> <br/>
-			
-			Mathematical analysis shows that a modifier allele that increases mutation rates of PRDM9 relative to the target is selectively favored.
-			Interestingly, this is not necessarily because such an allele increases individuals' fitness; rather, it is due to linkage effects. 
+			Using <a href="https://messerlab.org/slim/" target="_blank"> SLiM </a>, we explored parameters such as mutation and recombination rates in a
+			theoretical genome of 100 genes to get hindsights into how would hybrids' genomes evolve in a diversity of scenarios. From these, we predict:
             </p>
+		
+		<ol>
+			<li>Selfers and outcrossers do accumulate mutation load as presented above.</li>
+			<li>Fitness cost of outcrossers' mutation load</li>
+		</ol>
 		
 		</div>
 		<div id="PRDM9" class="pro3">
