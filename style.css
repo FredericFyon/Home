@@ -696,6 +696,10 @@ main article a:hover{
 	margin-bottom: 7vh;
 }
 
+.collab{
+	text-align:right;
+}
+
 /*MAIN - Individual Project Pages - Pros and Cons Tables*/
 
 .Project table{
