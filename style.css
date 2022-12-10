@@ -697,7 +697,7 @@ main article a:hover{
 }
 
 .collab{
-	text-align:right;
+	text-align:right !important;
 	font-weight:bold;
 	display:inline-block;
 	position:absolute;
