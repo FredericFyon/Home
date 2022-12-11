@@ -4,20 +4,34 @@
   
 <url>
 <loc>https://fredericfyon.github.io/Home/index.html</loc>
-<lastmod>2022-11-30</lastmod>
+<lastmod>2022-12-11</lastmod>
 <changefreq>monthly</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://fredericfyon.github.io/Home/enhancer-runaway-process.html</loc>
-<lastmod>2022-11-30</lastmod>
+<lastmod>2022-12-11</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://fredericfyon.github.io/Home/amazon-molly.html</loc>
+<lastmod>2022-11-30</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+  
+ <url>
+<loc>https://fredericfyon.github.io/Home/recombination-hotspots.html</loc>
+<lastmod>2022-11-30</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+  
+<url>
+<loc>https://fredericfyon.github.io/Home/mating-systems-hybrids.html</loc>
 <lastmod>2022-11-30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
