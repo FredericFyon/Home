@@ -27,10 +27,12 @@ header{
 	background-color: #d5fcd4;
 }
 
-header li{
+header nav li{
+        list-style: none;
 	list-style-type: none;
+        height: auto;
+        float: left;
 }
-
 
 header nav li ul {
         display: none;
