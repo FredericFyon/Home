@@ -28,10 +28,8 @@ header{
 }
 
 header nav li{
-        list-style: none;
 	list-style-type: none;
         height: auto;
-        float: left;
 }
 
 header nav li ul {
