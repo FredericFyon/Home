@@ -43,6 +43,29 @@ header nav li ul {
 
 header nav a {
         display: block;
+	font-variant: small-caps;
+	color:#256d25;
+	text-decoration: none;
+	font-size: calc(20px + 0.5vh);
+}
+
+header nav a:hover{
+	color:#BA3204;
+}
+
+nav ul li:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 2px;
+  width: 0px;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+
+nav ul li:hover:after {
+  width: 100%;
+  background: #BA3204;
 }
 
 header nav li:hover ul {
