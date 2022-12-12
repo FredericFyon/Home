@@ -31,6 +31,29 @@ header li{
 	list-style-type: none;
 }
 
+
+header nav li ul {
+        display: none;
+        height: auto;
+        margin: 0;
+        padding: 0;
+}
+
+header nav li:hover ul {
+        display: block;
+}
+      
+header nav li ul li {
+        background-color: #d5fcd4;
+}
+
+header nav li ul li a {
+        border-left: 1px solid #444444;
+        border-right: 1px solid #444444;
+        border-top: 1px solid #c9d4d8;
+        border-bottom: 1px solid #444444;
+}
+
 /*HEADER 1st Part - Navigation menu*/
 
 nav{
