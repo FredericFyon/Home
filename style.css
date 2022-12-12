@@ -32,6 +32,10 @@ header nav li{
 	text-align:center;
 }
 
+header nav li a{
+	display:inline-block;
+}
+
 header nav li a:after {
   content: '';
   display: block;
