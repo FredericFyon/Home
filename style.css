@@ -32,7 +32,7 @@ header nav li{
 	text-align:center;
 }
 
-header nav li:after {
+header nav li a:after {
   content: '';
   display: block;
   margin: auto;
@@ -42,7 +42,7 @@ header nav li:after {
   transition: width .5s ease, background-color .5s ease;
 }
 
-header nav li:hover:after {
+header nav li a:hover:after {
   width: 100%;
   background: #BA3204;
 }
