@@ -72,6 +72,9 @@ header nav li:hover ul {
       
 header nav li ul li {
         background-color: #d5fcd4;
+	padding: 8px 0;
+	float:none;
+	wdith:100%;
 }
 
 header nav li ul li img {
