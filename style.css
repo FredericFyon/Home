@@ -53,58 +53,10 @@ header nav li ul li {
         background-color: #d5fcd4;
 }
 
-header nav li ul li a {
-        border-left: 1px solid #444444;
-        border-right: 1px solid #444444;
-        border-top: 1px solid #c9d4d8;
-        border-bottom: 1px solid #444444;
+header img {
+        height:calc(20px + 2vh);
 }
 
-/*HEADER - Navigation menu*/
-
-nav{
-	width:65vw;
-}
-
-nav ul{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-content: stretch;
-    align-items: center;
-}
-
-nav ul li {
-  display: inline;
-  text-align: center;
-}
-
-nav ul li:after {
-  content: '';
-  display: block;
-  margin: auto;
-  height: 2px;
-  width: 0px;
-  background: transparent;
-  transition: width .5s ease, background-color .5s ease;
-}
-
-nav ul li:hover:after {
-  width: 100%;
-  background: #BA3204;
-}
-
-nav ul li a{
-	display: inline-block;
-	font-variant: small-caps;
-	color:#256d25;
-	text-decoration: none;
-	font-size: calc(20px + 0.5vh);
-}
-
-nav a:hover{
-	color:#BA3204;
-}
 
 /*MAIN - General Properties*/
 
