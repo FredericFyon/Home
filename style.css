@@ -60,7 +60,7 @@ header nav li ul li a {
         border-bottom: 1px solid #444444;
 }
 
-/*HEADER 1st Part - Navigation menu*/
+/*HEADER - Navigation menu*/
 
 nav{
 	width:65vw;
@@ -104,31 +104,6 @@ nav ul li a{
 
 nav a:hover{
 	color:#BA3204;
-}
-
-/*HEADER 2nd Part - Social Media List*/
-
-#media{
-	width:30vw;
-}
-
-#media ul{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    align-content: stretch;
-    align-items: center;
-}
-
-#media img{
-	height:calc(20px + 2vh);
-	margin-left:3vw;
-	border: 1.5px #256d25 solid;
-}
-
-#media img:hover{
-	border: 1.5px #BA3204 solid;
-	transition: border .1s ease-in-out;
 }
 
 /*MAIN - General Properties*/
