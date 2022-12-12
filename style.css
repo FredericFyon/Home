@@ -55,6 +55,10 @@ header nav li a {
 	font-size: calc(20px + 0.5vh);
 }
 
+header nav li a:after {
+        content=" ▼";
+}
+
 header nav li a:hover{
 	color:#BA3204;
 }
