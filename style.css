@@ -24,6 +24,10 @@ header{
 	background-color: #d5fcd4;
 }
 
+header nav{
+	position:absolute;
+}
+
 header nav li{
 	list-style-type: none;
         height: auto;
