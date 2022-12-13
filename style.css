@@ -64,23 +64,27 @@ header nav li a:hover{
 }
 
 header nav li ul {
-        display: none;
+        /*display: none;*/
+	display:block;
         height: auto;
         margin: 0;
         padding: 0;
 	width:20%;
 	position:absolute;
+	transform: scale(0);
+        transform-origin: top;
+        transition: all .5s ease;
 }
 
 header nav li:hover ul {
-        display: block;
+       /* display: block;*/
 	z-index:99999;
 	transform: scale(1);
 }
 
-header nav li:hover ul li{
+/*header nav li:hover ul li{
 	transform: scale(1);
-}
+}*/
       
 header nav li ul li {
         background-color: #d5fcd4;
@@ -89,9 +93,6 @@ header nav li ul li {
 	float:none;
 	width:100%;
 	position:relative;       
-	transform: scale(0);
-        transform-origin: top;
-        transition: all .5s ease;
 }
 
 header nav li ul li a{
