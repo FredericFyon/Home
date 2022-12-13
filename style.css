@@ -42,7 +42,7 @@ header nav li a:after {
   transition: width .5s ease, background-color .5s ease;
 }
 
-header nav li .deroul{
+header nav li .deroul::after{
   content: " ▼ ";
 }
 
