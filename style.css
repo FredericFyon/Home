@@ -85,7 +85,7 @@ header nav li ul li {
 }
 
 header nav li ul li a{
-	font-size:calc(16px + 0.5vh);
+	font-size:calc(14px + 0.5vh);
 	text-align:center;
 }
 
@@ -387,61 +387,6 @@ main article a:hover{
 	align-content: space-between;
 }
 
-.Project #ContainerER{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.Project #ContainerRec{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.Project #ContainerClon{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	align-items: center;
-	align-content: space-between;
-}
-
-.Project #HAContainer{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	align-items: center;
-	align-content: space-between;
-}
-.Project #ContainerAMolly{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	align-items: center;
-	align-content: space-between;
-}
-
-.Project #Dyn{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	align-items: center;
-	align-content: space-between;
-}
-
-.Project #Cycle{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	align-items: center;
-	align-content: space-between;
-	margin-top:10vh;
-	margin-bottom:10vh;
-}
-
 /*MAIN - Individual Project Pages - Images*/
 
 .Project figure figcaption{
@@ -451,201 +396,87 @@ main article a:hover{
 	text-decoration: underline;
 }
 
-.Project #img1{
-	width: 60vw;
+.Project img{
+	display:block;
 	min-width: 300px;
+	margin:auto;
 	margin-top:10vh;
 	margin-bottom: 10vh;
 }
 
-.Project #img2{
-	width: 50vw;
-	min-width: 300px;
-	margin-top:10vh;
-	margin-bottom: 10vh;
-}
-
-.Project #figImg3{
+.Project figure{
 	display:table;
 	width:35vw;
 	min-width: 300px;
 	margin:auto;
 }
 
-.Project #img3{
+.Project figure img{
 	display:block;
 	width:100%;
+	margin:auto;
+	margin-top:0vh;
+	margin-bottom: 0vh;
 }
 
-.Project #capImg3{
+.Project figure figcaption{
 	display: table-caption;
 	caption-side: bottom;
+}
+
+.Project #img1{
+	width: 60vw;
+}
+
+.Project #img2{
+	width: 50vw;
 }
 
 .Project #img4{
-	display:block;
 	width:30vw;
-	min-width: 300px;
-	margin:auto;
 }
 
 .Project #figImg5{
-	display:table;
 	width:30vw;
-	min-width: 300px;
-	margin:auto;
-}
-
-.Project #img5{
-	display:block;
-	width:100%;
-}
-
-.Project #capImg5{
-	display: table-caption;
-	caption-side: bottom;
 }
 
 .Project #figImg6{
-	display:table;
 	width:25vw;
-	min-width: 300px;
-	margin:auto;
-}
-
-.Project #img6{
-	display:block;
-	width:100%;
-}
-
-.Project #capImg6{
-	display: table-caption;
-	caption-side: bottom;
 }
 
 .Project #figImg7{
-	display:table;
 	width:30vw;
-	min-width: 300px;
-	margin:auto;
-}
-
-.Project #img7{
-	display:block;
-	width:100%;
-}
-
-.Project #capImg7{
-	display: table-caption;
-	caption-side: bottom;
 }
 
 .Project #figImgPhylo{
-	display:table;
 	width:20vw;
-	min-width: 300px;
-}
-
-.Project #imgPhylo{
-	display:block;
-	width:100%;
-}
-
-.Project #capImgPhylo{
-	display: table-caption;
-	caption-side: bottom;
 }
 
 .Project #figImgPRDM9{
-	display:table;
 	width:60vw;
-	min-width: 300px;
-	margin:auto;
 	margin-top:10vh;
 	margin-bottom:10vh;
 		
 }
 
-.Project #imgPRDM9{
-	display:block;
-	width:100%;
-}
-
-.Project #capImgPRDM9{
-	display: table-caption;
-	caption-side: bottom;
-}
-
 .Project #figImgDyn{
-	display:table;
 	width:30vw;
-	min-width: 300px;
-	margin:auto;
-}
-
-.Project #imgDyn{
-	display:block;
-	width:100%;
-}
-
-.Project #capImgDyn{
-	display: table-caption;
-	caption-side: bottom;
 }
 
 .Project #figImgCycle{
-	display:table;
 	width:10vw;
-	min-width: 300px;
-	margin:auto;
-}
-
-.Project #imgCycle{
-	display:block;
-	width:100%;
-}
-
-.Project #capImgCycle{
-	display: table-caption;
-	caption-side: bottom;
 }
 
 .Project #figImgAsynch{
-	display:table;
 	width:40vw;
-	min-width: 300px;
-	margin:auto;
 	margin-top:10vh;
 	margin-bottom:10vh;
-}
-
-.Project #imgAsynch{
-	display:block;
-	width:100%;
-}
-
-.Project #capImgAsynch{
-	display: table-caption;
-	caption-side: bottom;
 }
 
 .Project #figImgStoch{
-	display:table;
 	width:40vw;
-	min-width: 300px;
-	margin:auto;
 	margin-top:10vh;
 	margin-bottom:10vh;
-}
-
-.Project #imgStoch{
-	display:block;
-	width:100%;
-}
-
-.Project #capImgStoch{
-	display: table-caption;
-	caption-side: bottom;
 }
 
 /*MAIN - Individual Project Pages - Text*/
