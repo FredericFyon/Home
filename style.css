@@ -47,7 +47,7 @@ header nav li a:after {
 }
 
 header nav li a:hover:after {
-  width: 100%;
+  width: 80%;
   background: #BA3204;
 }
 
