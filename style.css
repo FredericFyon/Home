@@ -66,20 +66,22 @@ header nav li a:hover{
 header nav li ul {
         /*display: none;*/
 	display:block;
-        height: auto;
+        /*height: auto;*/
+	height: 0;
         margin: 0;
         padding: 0;
 	width:20%;
 	position:absolute;
 	transform: scale(0);
         transform-origin: top;
-        transition: all .5s ease;
+        transition: height .5s ease;
 }
 
 header nav li:hover ul {
        /* display: block;*/
 	z-index:99999;
-	transform: scale(1);
+	/*transform: scale(1);*/
+	height: auto;
 }
 
 /*header nav li:hover ul li{
