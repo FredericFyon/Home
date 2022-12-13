@@ -23,6 +23,10 @@ header{
 	height:7vh;
 }
 
+header nav ul{
+        background-color: #d5fcd4;
+}
+
 header nav li{
 	list-style-type: none;
         height: auto;
@@ -69,6 +73,7 @@ header nav li ul {
 
 header nav li:hover ul {
         display: block;
+	z-index:99999;
 }
       
 header nav li ul li {
