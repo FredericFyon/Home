@@ -75,7 +75,7 @@ header nav li ul li {
 	padding: 8px 0;
 	margin:auto;
 	float:none;
-	wdith:100%;
+	wdith:100% !important;
 }
 
 header nav li ul li a{
