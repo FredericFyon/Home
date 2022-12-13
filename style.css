@@ -52,7 +52,6 @@ header nav li a {
 	color:#256d25;
 	text-decoration: none;
 	font-size: calc(20px + 0.5vh);
-	background-color: #d5fcd4;
 }
 
 header nav li a:hover{
