@@ -29,7 +29,6 @@ header nav li{
 	float:left;
         width: 20%;
 	text-align:center;
-	background-color: #d5fcd4;
 }
 
 header nav li a:after {
@@ -40,10 +39,6 @@ header nav li a:after {
   width: 0px;
   background: transparent;
   transition: width .5s ease, background-color .5s ease;
-}
-
-header nav li .deroul::after{
-  content: " ▼ ";
 }
 
 header nav li a:hover:after {
@@ -57,6 +52,7 @@ header nav li a {
 	color:#256d25;
 	text-decoration: none;
 	font-size: calc(20px + 0.5vh);
+	background-color: #d5fcd4;
 }
 
 header nav li a:hover{
@@ -83,7 +79,7 @@ header nav li ul li {
 }
 
 header nav li ul li a{
-	font-size:12px;
+	font-size:calc(16px + 0.5vh);
 	text-align:center;
 }
 
