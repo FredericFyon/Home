@@ -33,13 +33,17 @@ header nav li{
 }
 
 header nav li a:after {
-  content: " ▼ ";
+  content: " ";
   display: block;
   margin: auto;
   height: 2px;
   width: 0px;
   background: transparent;
   transition: width .5s ease, background-color .5s ease;
+}
+
+header nav li .deroul{
+  content: " ▼ ";
 }
 
 header nav li a:hover:after {
@@ -79,7 +83,7 @@ header nav li ul li {
 }
 
 header nav li ul li a{
-	font-size:10px;
+	font-size:12px;
 }
 
 header nav li ul li img {
