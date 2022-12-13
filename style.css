@@ -69,6 +69,7 @@ header nav li ul {
         margin: 0;
         padding: 0;
 	width:100%;
+	position:absolute;
 }
 
 header nav li:hover ul {
@@ -82,6 +83,7 @@ header nav li ul li {
 	margin:auto;
 	float:none;
 	width:100%;
+	position:relative;
 }
 
 header nav li ul li a{
