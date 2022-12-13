@@ -75,6 +75,11 @@ header nav li ul {
 header nav li:hover ul {
         display: block;
 	z-index:99999;
+	transform: scale(1);
+}
+
+header nav li:hover ul li{
+	transform: scale(1);
 }
       
 header nav li ul li {
@@ -83,7 +88,10 @@ header nav li ul li {
 	margin:auto;
 	float:none;
 	width:100%;
-	position:relative;
+	position:relative;       
+	transform: scale(0);
+        transform-origin: top;
+        transition: all .5s ease;
 }
 
 header nav li ul li a{
