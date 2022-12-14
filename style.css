@@ -75,7 +75,7 @@ header nav li ul {
 	position:absolute;
 	/*transform: scale(0);
         transform-origin: top;*/
-        transition: max-height 1s ease-out;
+        transition: max-height .1s ease-out;
 }
 
 header nav li:hover ul {
