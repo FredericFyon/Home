@@ -438,6 +438,7 @@ main article a:hover{
 .Project figure figcaption{
 	display: table-caption;
 	caption-side: bottom;
+	font-size:12px;
 }
 
 .Project #img1{
