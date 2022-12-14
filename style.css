@@ -72,8 +72,8 @@ header nav li ul {
         padding: 0;
 	width:20%;
 	position:absolute;
-	transform: scale(0);
-        transform-origin: top;
+	/*transform: scale(0);
+        transform-origin: top;*/
         transition: height .5s ease;
 }
 
