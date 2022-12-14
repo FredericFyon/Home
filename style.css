@@ -469,7 +469,6 @@ main article a:hover{
 	width:60vw;
 	margin-top:10vh;
 	margin-bottom:10vh;
-		
 }
 
 .Project #figImgDyn{
@@ -494,19 +493,19 @@ main article a:hover{
 
 /*MAIN - Individual Project Pages - Text*/
 
-.Project div div #p1{
+.Project #p1{
 	width:110vh;
 }
 
-.Project div div #p2{
+.Project #p2{
 	width:120vh;
 }
 
-.Project div div #p3{
+.Project #p3{
 	width:120vh;
 }
 
-.Project div div #p4{
+.Project #p4{
 	width:120vh;
 }
 
