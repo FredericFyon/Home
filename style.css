@@ -64,8 +64,8 @@ header nav li a:hover{
 }
 
 header nav li ul {
-        /*display: none;*/
-	display:block;
+        display: none;
+	/*display:block;*/
         /*height: auto;*/
 	max-height: 0;
         margin: 0;
@@ -74,16 +74,16 @@ header nav li ul {
 	position:absolute;
 	/*transform: scale(0);
         transform-origin: top;*/
-        transition: max-height .5s ease-out;
+        transition: max-height 1s ease-out;
 }
 
 header nav li:hover ul {
-       /* display: block;*/
+        display: block;
 	z-index:99999;
 	/*transform: scale(1);*/
 	max-height: 150vh;
 	overflow:hidden;
-	transition: max-height .5s ease-in;
+	transition: max-height 1s ease-in;
 }
 
 /*header nav li:hover ul li{
