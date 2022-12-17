@@ -25,6 +25,7 @@ header{
 
 header nav ul{
         background-color: #d5fcd4;
+	padding:0;
 }
 
 header nav li{
