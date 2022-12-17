@@ -308,7 +308,7 @@ main article a:hover{
 
 /*MAIN - Individual Project Pages - Back to top of the page Button*/
 
-.Project #BackToTop{
+#BackToTop{
 	position: fixed; /* Fixed/sticky position */
 	bottom: 4vh; /* Place the button at the bottom of the page */
 	right: 0.4vw; /* Place the button 30px from the right */
@@ -319,12 +319,12 @@ main article a:hover{
 	width: 2.5vw;
 }
 
-.Project #BackToTop img{
+#BackToTop img{
 	width:100%;
 	border:none;
 }
 
-.Project #BackToTop:hover{
+#BackToTop:hover{
 	bottom: 5vh;
 	transition: bottom .1s ease-in-out;
 }
