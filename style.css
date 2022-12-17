@@ -64,24 +64,19 @@ header nav li a:hover{
 }
 
 header nav li ul {
-        /*display: none;*/
 	display:block;
-        /*height: auto;*/
 	max-height: 0;
 	overflow:hidden;
         margin: 0;
         padding: 0;
 	width:20%;
 	position:absolute;
-	/*transform: scale(0);
-        transform-origin: top;*/
         transition: max-height .1s ease-out;
 }
 
 header nav li:hover ul {
         display: block;
 	z-index:99999;
-	/*transform: scale(1);*/
 	max-height: 150vh;
 	transition: max-height 1s ease-in;
 }
