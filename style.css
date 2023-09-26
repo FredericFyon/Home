@@ -243,6 +243,10 @@ main article a:hover{
 	border-radius:50%;
 }
 
+#research a,#research a:visited{
+	color:black;
+}
+
 #research p{
 	margin-top:3vw;
 	text-align: justify;
