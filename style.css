@@ -497,6 +497,10 @@ main article a:hover{
 
 /*MAIN - Individual Project Pages - Text*/
 
+.Project a,.Project a:visited{
+	color:black;
+}
+
 .Project #p1{
 	width:110vh;
 }
