@@ -243,7 +243,7 @@ main article a:hover{
 	border-radius:50%;
 }
 
-#research a{
+#research a:link{
 	color:black;
 }
 
