@@ -501,7 +501,11 @@ main article a:hover{
 
 /*MAIN - Individual Project Pages - Text*/
 
-.Project a,.Project a:visited{
+.Project a:link{
+	color:black;
+}
+
+.Project a:visited{
 	color:black;
 }
 
