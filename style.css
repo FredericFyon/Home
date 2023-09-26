@@ -243,7 +243,11 @@ main article a:hover{
 	border-radius:50%;
 }
 
-#research a,#research a:visited{
+#research a{
+	color:black;
+}
+
+#research a:visited{
 	color:black;
 }
 
